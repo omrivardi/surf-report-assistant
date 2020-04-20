@@ -1,0 +1,20 @@
+{
+  "name": "dialogflow-functions",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "./node_modules/.bin/serverless offline -s dev",
+    "debug": "export SLS_DEBUG=* && node --inspect ./node_modules/.bin/serverless offline -s dev",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "actions-on-google": "^2.12.0",
+    "axios": "^0.19.2",
+    "date-fns": "^2.12.0"
+  },
+  "devDependencies": {
+    "serverless": "^1.67.3",
+    "serverless-offline": "^6.1.4"
+  }
+}

@@ -2,6 +2,8 @@
 
 This is a personal side project that aims to automate surf check in Herzliya.  
 
+The project is using dialogflow and aws lambda for fullfilments
+
 Te project should integrate with google assistant and response for the following command:
   
 ## Check the surf
