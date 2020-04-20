@@ -81,7 +81,7 @@ const getForecastTextDescription = forecast => {
     forecast.swell.components.combined.height
   } meters at ${forecast.swell.components.combined.period} seconds. Wind is ${
     windDirectionToText[forecast.wind.compassDirection]
-  } at ${toKnts(forecast.wind.speed)} to ${toKnts(forecast.wind.gusts)} knots `;
+  } at ${toKnts(forecast.wind.speed)} to ${toKnts(forecast.wind.gusts)} knots.\n`;
 };
 
 module.exports = {
